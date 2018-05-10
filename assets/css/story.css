@@ -34,12 +34,6 @@ body {
 
 /*== Header ==*/
 
-
-.container {
-    position: fixed;
-}
-
-
 .container {
     display: flex;
     flex-direction: row;
