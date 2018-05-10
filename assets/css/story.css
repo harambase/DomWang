@@ -110,18 +110,13 @@ body {
 
 header[role="main-header"] {
     overflow: hidden;
-    padding-top: 108px
 }
 
 header[role="main-header"] h1 {
-    margin: 0;
-    padding: 0;
+    margin-left: 0.4em;
+    padding: 0.5em 1em;
 }
 
-header[role="main-header"] h1 > a {
-    float: left;
-    display: block;
-}
 
 header[role="main-header"] ul[role="socil-icons"] > li.active > a {
     background-color: inherit;
@@ -132,12 +127,13 @@ header[role="main-header"] ul[role="socil-icons"] > li.active > a {
 header[role="main-header"] ul[role="socil-icons"] {
     list-style: none;
     text-align: right;
+    margin-right: 1em;
     float: right
 }
 
 header[role="main-header"] ul[role="socil-icons"] > li {
     display: inline-block;
-    margin-left: 28px
+    margin-left: 1em
 }
 
 header[role="main-header"] ul[role="socil-icons"] > li > a {
